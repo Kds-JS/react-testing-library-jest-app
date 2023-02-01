@@ -42,7 +42,7 @@ const Application = () => {
                 
             </div>
 
-            <button type="submit">Submit</button>
+            <button type="submit" disabled>Submit</button>
         </form>
         </>
     );
