@@ -6,6 +6,7 @@ import Skills from './Components/skills/skills';
 import Counter from './Components/counter/counter';
 import { AppProviders } from './providers/AppProviders';
 import { MuiMode } from './Components/mui/mui-mode';
+import { Users } from './Components/Users/Users';
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <AppProviders>
       <div className='App'>
         <MuiMode/>
+        <Users/>
       </div>
     </AppProviders>
   );
